@@ -1,0 +1,81 @@
+body
+{
+background-color: #92B06A;
+
+}
+
+nav
+{
+  width: 78px;
+  height: 100%;
+  float: left;
+  background-color: #DE593A;
+
+  margin-left: 80px;
+  margin-top: 60px;
+  box-shadow: 20px 10px 5px black;
+  border: outset 3px #43484D;
+}
+
+nav p
+{
+  transform: rotate(-90deg);
+  vertical-align: middle;
+  margin-top: 551px;
+  font-family: 'courgette', cursive;
+  font-size: 60px;
+
+}
+
+p
+{
+  font-family: 'courgette', cursive;
+  font-size: 16px;
+}
+
+figure
+{
+
+  height: 400px;
+  width: 1289px;
+  margin-left: 250px;
+
+  margin-top: 40px;
+  box-shadow: 20px 10px 5px black;
+}
+
+figure img
+
+{
+
+ width: 1293px;
+ height: 404px;
+
+box-shadow: 20px 10px 5px black;
+ border: outset 3px #43484D;
+}
+
+section
+
+{
+  background-color: #878B8B;
+
+  box-shadow: 20px 10px 5px black;
+  width: 1289px;
+  margin-left: 250px;
+  border: outset 3px #43484D;
+  margin-top: 100px;
+}
+
+section p
+{
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+}
+
+section article h3
+{
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'courgette', cursive;
+}

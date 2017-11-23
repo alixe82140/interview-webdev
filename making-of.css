@@ -1,0 +1,47 @@
+body
+{
+  background-image: url(img/fiche.jpg);
+  background-size: cover;
+}
+
+section
+{
+  background-color:#F4DA00;
+  width: 250px;
+  height: 250px;
+  float: right;
+}
+
+#p2
+{
+  margin-top: 180px;
+  margin-right: 50px;
+  float: right;
+  transform: rotate(19deg);
+box-shadow: -7px 0 10px black;
+}
+
+#p1
+{
+float: left;
+transform: rotate(-17deg);
+margin-top: 80px;
+margin-left: 50px;
+box-shadow: -7px 0 10px black;
+
+}
+
+div #p3 
+{
+  font-family: Homemade Apple, cursive;
+  font-size: 30px;
+}
+
+
+p
+{
+  font-family: Homemade Apple, cursive;
+  font-size: 16px;
+  margin-left: 3px;
+  margin-top: 10px;
+}
