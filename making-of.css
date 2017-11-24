@@ -31,17 +31,36 @@ box-shadow: -7px 0 10px black;
 
 }
 
-div #p3 
+nav
 {
+  background-image: url(img/pp.png);
+  background-size: cover;
   font-family: Homemade Apple, cursive;
   font-size: 30px;
+  padding-left: 20px;
+  display: flex;
+  padding-left: 69px;
+  padding-bottom: -800px;
+  width: 250px;
+  height: 319px;
 }
 
-
-p
+nav a {
+display: inline-block;
+padding: 10px;
+text-decoration: none;
+color: black;
+font-size: 12px;
+font-family: Homemade Apple, cursive;
+padding-top: 32px;
+}
+nav li
+{
+height: 50px; 
+}
+*
 {
   font-family: Homemade Apple, cursive;
-  font-size: 16px;
-  margin-left: 3px;
-  margin-top: 10px;
+  font-size: 12px;
+
 }
