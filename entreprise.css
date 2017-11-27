@@ -1,6 +1,6 @@
 body
 {
-background-color: #92B06A;
+background-color: #9DAAB2;
 
 }
 
@@ -12,7 +12,7 @@ nav
   margin:0;
   padding:0;
   text-align:center;
-  background-color: #DE593A;
+  background-color: #1E4099;
   border-bottom: solid 3px white;
 }
 
@@ -22,19 +22,54 @@ nav
   text-decoration: none;
   color: white;
   font-size: 24px;
-  font-family: 'courgette' cursive;
+  font-family: 'courgette', cursive;
   text-align: inline;
   }
 
   nav li {
   display: inline;
+}
 
-figure
+  figure{
+    margin-left: 33.33%;
+    width: 33.33%;
+    margin-top: 80px;
+
+  }
+
+figure img{
+  width:100%;
+  box-shadow: 16px 16px 0.55px #555F5C;
+
+}
+
+article{
+  background-color: #B6AA37;
+  margin: 84px;
+  border: 7px blue groove;
+
+}
+
+p{
+  text-align: center;
+  display: inline-block;
+  margin: 0px 20px 20px 20px;
+  font-family: 'courgette', cursive;
+}
+
+ h3{
+  text-align: center;
+  font-family: 'courgette', cursive;
+  color:#15243D;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+/*figure
 {
 
   height: 400px;
   width: 1289px;
-  margin-left: 250px;
+  margin-left: 33.33%;
 
   margin-top: 40px;
   box-shadow: 20px 10px 5px black;
@@ -49,6 +84,7 @@ figure img
 
 box-shadow: 20px 10px 5px black;
  border: outset 3px #43484D;
+ margin-left: 33.33%;
 }
 
 section
@@ -73,5 +109,5 @@ section article h3
 {
   padding-top: 10px;
   text-align: center;
-  font-family: 'courgette', cursive;
+  font-family: 'courgette', cursive;/*
 }
