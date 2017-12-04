@@ -1,0 +1,340 @@
+
+/* INDEX */
+
+nav{
+  li{
+      display: inline;
+  }
+  a {
+      display: inline-block;
+      padding: 10px;
+      text-decoration: none;
+  }
+}
+
+
+
+body {
+  font-family: 'courgette', cursive;
+}
+
+#index { color: white;
+font-size: 24px;
+font-family: 'courgette', cursive;
+  nav {
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  background-color: #DE593A;
+  border-bottom: solid 3px white;
+    div{
+      float: left;
+      }
+  }
+
+}
+
+
+/*MAKING OF*/
+
+
+#making nav
+{
+  background-image: url(img/pp.png);
+  background-size: cover;
+  font-size: 30px;
+  display: flex;
+  padding-left: 69px;
+  width: 250px;
+  height: 319px;
+    li {
+      height: 50px;
+      }
+        a {
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            font-family: Homemade Apple, cursive;
+            padding-top: 32px;
+
+          }
+}
+
+
+/*ENTREPRISE*/
+
+
+#entreprise nav
+{
+  border:1px solid #ccc;
+  border-width:1px 0;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  background-color: #1E4099;
+  border-bottom: solid 3px white;
+    a {
+      display: inline;
+      color: white;
+      font-size: 24px;
+      
+      }
+}
+
+
+
+/*CONCLUSION*/
+
+
+#conclusion nav {
+border:1px solid #ccc;
+border-width:1px 0;
+list-style:none;
+text-align:center;
+background-color: #9BB70D;
+opacity: 0.85;
+border-bottom: solid 6px white;
+width: 100%
+    a {
+
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      }
+}
+
+
+/*INDEX*/
+
+
+#index div img
+{
+  width: 18;
+  height: 18px;
+
+}
+
+
+#index header
+{
+  width: 100%;
+  height: 200px;
+  background-color: #92B06A;
+  text-align: center;
+  padding-top: 20px;
+  border-bottom: solid 3px white;
+
+}
+
+#index main{
+  width: 100%;
+  height:600px;
+  background:#BFAF80;
+  border-radius: 0px 0px 150px 150px;
+      img {
+      margin-left:33%;
+      margin-top: 10%;
+      height: 300px;
+      width: auto;
+      }
+
+    }
+
+#index p
+{
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+#index a
+{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+  
+  /*MAKING-OF*/
+
+body#making 
+{
+  background-image: url("img/fiche.jpg");
+  background-size: cover;
+  font-family: Homemade Apple, cursive;
+  font-size: 12px;
+}
+
+
+#making{
+        section{
+        background-color:#F4DA00;
+        width: 250px;
+        height: 250px;
+        float: right;
+        }
+        p{
+        margin: 10px 10px 10px 10px;
+        font-size: 16px;
+         }
+         #p1{
+          float: left;
+          transform: rotate(-17deg);
+          margin-top: 80px;
+          margin-left: 50px;
+          box-shadow: -7px 0 10px black;
+          }
+          #p2{
+            margin-top: 180px;
+            margin-right: 50px;
+            float: right;
+            transform: rotate(19deg);
+            box-shadow: -7px 0 10px black;
+            font-size: 14px
+              }
+}
+
+
+/*ENTREPRISE*/
+
+body#entreprise 
+{
+background-color: #9DAAB2;
+
+}
+
+#entreprise{
+  
+
+   figure{
+    margin-left: 33.33%;
+    width: 33.33%;
+    margin-top: 80px;
+        img{
+        width:100%;
+        box-shadow: 16px 16px 0.55px #555F5C;
+
+           }
+        }
+        article{
+        background-color: #B6AA37;
+        margin: 84px;
+        border: 7px blue groove;
+
+      }
+
+
+        h3{
+        text-align: center;
+         color:#15243D;
+         font-weight: bolder;
+         margin-top: 10px;
+      }
+
+        p{
+        text-align: center;
+        display: inline-block;
+        margin: 0px 20px 20px 20px;
+       }
+}
+
+/*INTERVIEW*/
+
+
+body#interview
+{
+  background-image: url(img/paper09.jpg);
+}
+
+#interview{
+             div {
+              background-color: #FFAC00;
+              opacity: 0.55;
+              width: 800px;
+              margin-left: 99px;
+              padding-bottom: 20px;
+              box-shadow: 20px 10px 5px black;
+              }
+               p {
+              text-align: center;
+              }
+              h2 {
+              text-align: center;
+              }
+              .d{
+              margin-top: 30px;
+              padding-top: 20px;
+              }
+              nav{
+              background-color: #FFAC00;
+              opacity: 0.55;
+              text-align: right;
+              border:1px solid #ccc;
+              border-width:1px 0;
+              list-style:none;
+              text-align:center;
+              background-color: #FFAC00;
+              border-bottom: solid 3px white;
+              }
+              nav a {
+              color: black;
+              font-size: 24px;
+              font-family: 'courgette', cursive;
+              }
+              aside {
+              float: right;
+              }
+              section{
+              width:800px;
+              }
+              main{
+              width: 800px;
+              }
+              rect{
+              color: pink;
+              }
+}
+/*CONCLUSION*/
+
+body#conclusion {
+background-image: url(img/bois.jpg);
+background-size: cover;
+}
+
+#conclusion {
+          .vert{
+            background-color: #9BB70D;
+            width: 100%;
+            height: 100%;
+            opacity: 0.85;
+            margin: auto;
+          }
+
+          section{
+            background-color: white;
+            width: 33.33%;
+            height: 600px;
+            margin-left: 33.33%;
+            margin-top: 150px;
+            opacity: 0.55;
+            box-shadow:   10px 10px 1px black;
+          }
+
+
+          p{
+            text-align: center;
+            display: inline-block;
+            font-size: 24px;
+            margin: 122px 33px 0px 33px;
+          }
+}
